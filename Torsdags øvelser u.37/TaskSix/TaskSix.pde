@@ -27,9 +27,11 @@ IntList forbiddenNums;
 forbiddenNums = new IntList(10,20,30);
 int x = 7;
 int y = 8;
-int z = 10;
+int z = 15;
 
-if (forbiddenNums.hasValue(x) == true || forbiddenNums.hasValue(y) == true || forbiddenNums.hasValue(z) == true){
+if ( (forbiddenNums.hasValue(x) == true) 
+   ||(forbiddenNums.hasValue(y) == true)
+   ||(forbiddenNums.hasValue(z) == true)){
   println("Number not allowed");
 }else if (x + y + z == 30){
   println("Success!");
