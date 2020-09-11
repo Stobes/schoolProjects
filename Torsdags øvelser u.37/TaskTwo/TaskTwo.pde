@@ -5,7 +5,7 @@ String clap;
 
 void setup() {
   if (mood = true) {
-    clap = " ";
+    clap = "";
   }else{
     clap = "don't";
   }

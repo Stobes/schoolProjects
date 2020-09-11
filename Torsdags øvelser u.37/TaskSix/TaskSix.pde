@@ -30,7 +30,7 @@ int y = 8;
 int z = 10;
 
 if (forbiddenNums.hasValue(x) == true || forbiddenNums.hasValue(y) == true || forbiddenNums.hasValue(z) == true){
-  println("NON COMPLIANT SPECIMEN");
+  println("Number not allowed");
 }else if (x + y + z == 30){
   println("Success!");
 }else{
