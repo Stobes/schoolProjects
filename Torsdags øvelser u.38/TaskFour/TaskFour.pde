@@ -2,6 +2,7 @@ String[] arrSting = new String[10];
 int[] intArray = new int[10];
 boolean[] boolArray = new boolean[10];
 
+
 void printStrArr(String[] arr)
 {
   for(int i = 0; i <= arr.length - 1; i++)
@@ -9,6 +10,8 @@ void printStrArr(String[] arr)
     println(arr[i]);
   }
 }
+
+
 
 int intArrSum(int[] arr)
 {
@@ -20,15 +23,17 @@ int intArrSum(int[] arr)
   return sum;
 }
 
-int intArrAvarage(int[] arr)
+
+
+float intArrAvarage(int[] arr)
 {
   int sum = 0
   for(int i = 0; i <= arr.length - 1; i++)
   {
     sum = sum + arr[i];
   }
-  int avarage = sum/arr.length;
-  return avarage;
+  float avarage = sum/arr.length;
+  return avarage;½
 }
 
   
